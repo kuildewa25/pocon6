@@ -1,0 +1,21 @@
+# =====================================================================
+#  RITUAL IZIN v1   —  taruh file ini di GitHub repo, nama: izin.txt
+#  URL dibaca script: raw.githubusercontent.com/<repo>/<branch>/izin.txt
+#
+#  FORMAT SATU BARIS PER DEVICE (tanpa spasi):
+#
+#      SERIAL|NAMA|EXPIRED
+#
+#    SERIAL  : serial ASLI device (dari /proc/cmdline, lihat cek-serial.sh)
+#    NAMA    : label bebas, TIDAK boleh mengandung tanda |
+#    EXPIRED : YYYY-MM-DD   -> berakhir tanggal itu (setelah lewat = ditolak)
+#              -            -> tanpa batas waktu
+#
+#  Baris diawali # = komentar, diabaikan.
+#  Baris kosong diabaikan.
+#
+#  CONTOH DI BAWAH — GANTI dengan data device kamu:
+# =====================================================================
+03ad9c6d0205|Budi|2026-12-31
+350ec43c9805|Siti|2027-06-30
+a09ac24b|Andi|-
